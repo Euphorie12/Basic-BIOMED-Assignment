@@ -1,0 +1,84 @@
+\documentclass[12pt]{article}
+\usepackage{graphicx}
+
+\usepackage{hyperref}  %allows for clickable reference
+\hypersetup{colorlinks = true,citecolor = blue, linkcolor = blue, urlcolor = blue}
+\usepackage{subcaption}
+
+\usepackage{amsmath}
+\usepackage{pifont}
+\usepackage{wrapfig}
+\usepackage{multicol}
+\setlength{\columnsep}{1.5cm}
+\setlength{\columnseprule}{1pt}
+ 
+\usepackage{tikz}
+\usetikzlibrary{calc}
+
+
+\usepackage{fancyhdr}
+
+\lhead{ }
+\rhead{ }
+\chead{Two page write-up on Future of Healthcare}
+ 
+\renewcommand{\headrulewidth}{0.4pt} %thickness of Line
+\rfoot{Page \thepage}
+\fancyfoot[CO,RE]{Harshit Dhaduk}
+\fancyfoot[LO,CE]{10-Feb-2022}
+\renewcommand{\footrulewidth}{0.2pt}  %thickness of line
+
+
+\begin{document}
+\pagestyle{empty}
+
+\begin{tikzpicture}
+[remember picture, overlay]
+x\draw [line width=2pt]($(current page.north west)+(1in,-1in)$) rectangle ($(current page.south east)+(-1in, 1in)$);x
+
+\end{tikzpicture}
+
+
+   \begin{center}
+       \vspace{1cm}
+	   \Large
+       \textbf{National Institute Of Technology, Raipur } 
+       \vspace{1.5cm}
+     
+       \includegraphics[scale=0.5]{NITRR.png}\\
+       \vspace{0.8cm}
+       \Huge
+       Assignment-3\\
+       \vspace{0.8cm}
+      \textbf{ "Two page write-up on Future of Healthcare."}
+      
+	\vfill      
+      
+   \begin{multicols}{2} 
+   \begin{flushleft}
+       \large
+       \textbf{Submitted by:}\\
+       Harshit Dhaduk\\
+       Roll No. 21111023\\
+       Biomedical Engineering\\
+       $1^{st}$ Semester,B.Tech\\
+       NIT Raipur, Chhattisgarh\\
+       
+       \textbf{Submitted to:}\\
+       Dr.Saurabh Gupta
+       Assistant Professor
+       Department of Biomedical Engineering\\
+       NIT Raipur, Chhattisgarh
+    \end{flushleft}
+    \end{multicols}
+            
+   \end{center}
+
+ 
+
+
+\clearpage
+\pagestyle{fancy}
+\tableofcontents
+\clearpage
+\end{document}
